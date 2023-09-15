@@ -1,0 +1,249 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body img {
+    width: 50px;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+}
+
+/* nav bar */
+.nav_container {
+    display: flex;
+    height: 50px;
+    justify-content: end;
+    align-items: center;
+}
+
+.nav_container ul {
+    display: flex;
+}
+
+.nav_container ul li {
+    list-style: none;
+    margin: 0 10px;
+}
+
+.nav_container ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 13px;
+}
+
+.nav_container ul li:hover {
+    text-decoration: underline;
+}
+
+.six_dots_nav {
+    height: 35px;
+    width: 35px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    margin-left: 5px;
+}
+
+.six_dots_img {
+    width: 15px;
+}
+
+.six_dots_nav:hover {
+    background-color: rgb(240, 237, 237);
+}
+
+.profile_nav_anchor {
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    margin: 0 15px 0 10px;
+}
+
+.profile_nav_img {
+    width: 35px;
+}
+
+.profile_nav_anchor:hover {
+    background-color: rgb(237, 231, 224);
+}
+
+/* google logo */
+.google_logo {
+    height: 230px;
+    width: 100%;
+    display: grid;
+    align-items: end;
+    overflow: hidden;
+
+}
+
+.google_logo_img {
+    width: 400px;
+    margin: 0 auto -40px;
+}
+
+/* Google search box */
+.search_box_container {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.search_box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+}
+
+.search_box:hover {
+    box-shadow: .5px .5px .5px 1px rgb(215, 213, 213);
+}
+
+.label_search {
+    height: 45px;
+    width: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px 0 0 50px;
+    border: 1px solid rgb(209, 208, 208);
+    border-right: none;
+}
+
+.mag_icon_img {
+    width: 20px;
+}
+
+.input_search {
+    height: 45px;
+    width: 350px;
+    outline: none;
+    border: none;
+    border-top: 1px solid rgb(209, 208, 208);
+    border-bottom: 1px solid rgb(209, 208, 208);
+    font-size: 15px;
+}
+
+.voice_lens_container {
+    display: flex;
+    height: 45px;
+    width: 90px;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 0 50px 50px 0;
+    border: 1px solid rgb(209, 208, 208);
+    border-left: none;
+}
+
+.voice_icon_img {
+    width: 12px;
+}
+
+.google_lens_img {
+    width: 20px;
+}
+
+/* Google search and feeling lucky */
+.container_SL {
+    width: 100%;
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5px;
+}
+
+.container_SL a {
+    font-size: 15px;
+    margin: 0 15px;
+    /* height: 35px; */
+    /* width: 150px; */
+    padding: 10px;
+    background-color: rgb(240, 237, 237);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: black;
+    border-radius: 5px;
+}
+
+.container_SL a:hover {
+    border: 1px solid rgb(179, 175, 175);
+    padding: 9px;
+}
+
+/* Google language */
+.language_container {
+    height: 30px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.language_container p {
+    font-size: 13px;
+}
+
+.language_container a {
+    text-decoration: none;
+    color: blue;
+    margin-left: 10px;
+    font-size: 13px;
+}
+
+.language_container a:hover {
+    text-decoration: underline;
+}
+
+/* web footer */
+.footer_container {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+}
+
+.country_name {
+    height: 40px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding-left: 15px;
+    border-bottom: 1px solid rgb(209, 208, 208);
+}
+
+.bottom_part {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 5px;
+}
+
+.bottom_part ul {
+    display: flex;
+}
+
+.bottom_part ul li {
+    list-style: none;
+    padding: 10px 10px;
+}
+
+.bottom_part ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 13px;
+}
+
+.bottom_part ul li:hover {
+    text-decoration: underline;
+}

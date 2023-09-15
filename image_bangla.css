@@ -1,0 +1,247 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    font-weight: lighter;
+}
+
+body {
+    width: 100vw;
+    height: 105vh;
+    position: relative;
+}
+
+/* Heading part */
+
+.top_part {
+    display: flex;
+    width: 100%;
+    height: 50px;
+    align-items: center;
+}
+
+.bars-line {
+    width: 17px;
+    height: 17px;
+    position: absolute;
+    left: 15px;
+
+}
+
+.all_text {
+    text-decoration: none;
+    color: gray;
+    font-size: 12px;
+    position: absolute;
+    left: 40px;
+    padding: 18px 10px 17px;
+}
+
+.image_text {
+    text-decoration: none;
+    color: blue;
+    font-size: 12px;
+    position: absolute;
+    left: 109px;
+    border-bottom: 2px solid blue;
+    padding: 18px 10px 16px;
+}
+
+.six_dots_bento {
+    width: 17px;
+    height: 17px;
+    position: absolute;
+    right: 60px;
+}
+
+.link_profile {
+    position: absolute;
+    right: 15px;
+}
+
+.profile {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: black;
+}
+
+/* google logo */
+.google_logo_div {
+    width: 100%;
+    display: grid;
+    justify-content: center;
+    align-items: end;
+}
+
+.google_logo {
+    margin: 25px auto 0;
+    width: 70%;
+    margin-bottom: -10px;
+}
+
+.ima-ge {
+    font-size: 85%;
+    color: blue;
+    background-color: red;
+}
+
+/* trending search line */
+.search_box_x {
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: rosybrown; */
+}
+
+.src_mg_ls {
+    width: 95%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.search_box {
+    display: flex;
+    width: 100%;
+    height: 40px;
+    position: relative;
+    border-radius: 50px 0 0 50px;
+    border: 1px solid rgb(205, 205, 205);
+    border-right: none;
+}
+
+.mag_icon_png {
+    width: 22px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 15px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.voice_icon {
+    width: 55px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgb(205, 205, 205);
+    border-right: none;
+    border-left: none;
+}
+
+.voice_icon_png {
+    width: 14px;
+}
+
+.google_lens {
+    width: 55px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0 50px 50px 0;
+    border: 1px solid rgb(205, 205, 205);
+    border-left: none;
+    /* background-color: red; */
+}
+
+.google_lens_png {
+    width: 22px;
+}
+
+/* Bottom part */
+
+.bottom_part {
+    width: 100%;
+    background-color: rgb(242, 241, 241);
+    position: absolute;
+    bottom: 0;
+}
+
+
+.bangla_desh {
+    height: 40px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    /* background-color: rgb(219, 215, 215); */
+    font-size: 1rem;
+    padding: 0 15px;
+    color: rgb(21, 21, 21);
+    border-bottom: 1px solid rgb(205, 205, 205);
+}
+
+.settings-part {
+    font-size: 13px;
+    display: flex;
+    flex-flow: wrap row;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 15px;
+}
+
+.dark-theme {
+    text-decoration: none;
+    /* color: gray; */
+    padding-left: 25px;
+    margin: 10px 0;
+    text-align: end;
+}
+
+.settings {
+    text-decoration: none;
+    /* color: gray; */
+    padding-left: 25px;
+    margin: 10px 0;
+    text-align: end;
+}
+
+.privacy {
+    text-decoration: none;
+    /* color: gray; */
+    padding-left: 25px;
+    margin: 10px 0;
+    text-align: end;
+}
+
+.terms {
+    text-decoration: none;
+    /* color: gray; */
+    padding-left: 25px;
+    margin: 10px 0;
+    text-align: end;
+}
+
+.advertising {
+    text-decoration: none;
+    /* color: gray; */
+    padding-left: 25px;
+    margin: 10px 0;
+    text-align: end;
+}
+
+.business {
+    text-decoration: none;
+    /* color: gray; */
+    padding-left: 25px;
+    margin: 5px 0;
+    text-align: end;
+}
+
+.about {
+    text-decoration: none;
+    /* color: gray; */
+    padding-left: 25px;
+    margin: 10px 0;
+    text-align: end;
+}
+
+.settings-part>a {
+    color:rgb(48, 48, 48);
+}
